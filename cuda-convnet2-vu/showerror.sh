@@ -1,0 +1,1 @@
+python convnet.py --load-file $1 --test-only 1
