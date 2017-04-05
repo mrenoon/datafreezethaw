@@ -119,9 +119,9 @@ class InformationGainMC(BaseAcquisitionFunction):
 
         # zb are the representer points and lmb are their log EI values
 
-        #The reason for the fucking slow IG_MC might be here
+        #The reason for the slow IG_MC might be here
         # self.zb, self.lmb, _ = sampler.run_mcmc(start_points, 200)
-        self.zb, self.lmb, _ = sampler.run_mcmc(start_points, 20)
+        self.zb, self.lmb, _ = sampler.run_mcmc(start_points, 100)
 
 
         if len(self.zb.shape) == 1:
