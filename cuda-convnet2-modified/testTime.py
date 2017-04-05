@@ -6,7 +6,7 @@ def test(datasize):
     os.system("rm -rf /data/ml/RoBO/examples/temp_configs_VarSizeFreezeConvNetCifar/config_3.data")
     start = time.time()
 
-    # cfgFile = "cuda-convnet2-vu/layers/cifar/layer-params-80sec-spearminted.cfg"
+    # cfgFile = "cuda-convnet2-modified/layers/cifar/layer-params-80sec-spearminted.cfg"
     
     cfgFile = "RoBO/examples/temp_configs_VarSizeFreezeConvNetCifar/config_3.cfg"
 

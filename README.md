@@ -8,7 +8,7 @@
 ### Step 2: install our modified version of RoBO: ###
     python setup.py install
 ### Step 3: install the CUDA toolkit and CUDA SDK ###
-### Step 4: follow the instructions at https://github.com/akrizhevsky/cuda-convnet2/blob/wiki/Compiling.md to compile the codes in cuda-convnet2 and cuda-convnet2-vu ###
+### Step 4: follow the instructions at https://github.com/akrizhevsky/cuda-convnet2/blob/wiki/Compiling.md to compile the codes in cuda-convnet2 and cuda-convnet2-modified ###
 
 ## Run FreezeThawBO example on the cifar10 dataset ##
 ### Step 1: Download the cifar10 dataset from http://www.cs.toronto.edu/~kriz/cifar-10-py-colmajor.tar.gz and uncompress into folder data ###

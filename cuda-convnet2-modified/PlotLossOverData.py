@@ -10,7 +10,7 @@ def train(datasize,fileName):
     os.system("rm -rf /data/ml/RoBO/examples/temp_configs_VarSizeFreezeConvNetCifar/" + fileName + ".data")
     start = time.time()
 
-    # cfgFile = "cuda-convnet2-vu/layers/cifar/layer-params-80sec-spearminted.cfg"
+    # cfgFile = "cuda-convnet2-modified/layers/cifar/layer-params-80sec-spearminted.cfg"
     
     cfgFile = "Vu_Notes/curveDatas/configs/" + fileName + ".cfg"
 

@@ -92,7 +92,7 @@ class VarSizeDataConvNetCifar(BaseTask):
 
         dir_path = ROOT_ML_DIR + "RoBO/examples/"
 
-        os.chdir(ROOT_ML_DIR + "/cuda-convnet2-vu")
+        os.chdir(ROOT_ML_DIR + "/cuda-convnet2-modified")
         dataPath = ROOT_ML_DIR + "/data/vu-cifar-10"
         save_file = os.path.join(dir_path,self.file_name + ".data")
         layersCfg = ROOT_ML_DIR + "/Spearmint-EI/examples/convnetcifar/layers-80sec.cfg"
